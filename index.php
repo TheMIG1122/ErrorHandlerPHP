@@ -16,10 +16,25 @@ function my_error($error_number, $error_text, $filename, $line_number)
 
 
 // Method 01
+/*
+
+This will not store fatal error like unknown function etc.
+
+*/
+
 // error_reporting(0);
 // set_error_handler("my_error");
 
+
+
 // Method 02
+/*
+
+    This will store error in given log file and disable the
+    page if it has fatal error like unknown function
+
+*/
+
 // ini_set("display_errors",0);
 // ini_set("log_errors",1);
 // ini_set("error_log","logs/error_log.txt");
