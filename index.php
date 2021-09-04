@@ -1,7 +1,8 @@
 <?php
 /*
+-------------------
     Erorr Handler
-    https://www.youtube.com/watch?v=8otFp9yXA5E
+-------------------
 */
 
 // Function to overwrite error handler
@@ -17,9 +18,8 @@ function my_error($error_number, $error_text, $filename, $line_number)
 
 // Method 01
 /*
-
-This will not store fatal error like unknown function etc.
-
+    Reference : https://www.youtube.com/watch?v=8otFp9yXA5E
+    This will not store fatal error like unknown function etc.
 */
 
 // error_reporting(0);
@@ -29,10 +29,9 @@ This will not store fatal error like unknown function etc.
 
 // Method 02
 /*
-
+    Reference : https://www.youtube.com/watch?v=1O4mbgl3-sY
     This will store error in given log file and disable the
     page if it has fatal error like unknown function
-
 */
 
 // ini_set("display_errors",0);
