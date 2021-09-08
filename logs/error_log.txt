@@ -1,0 +1,22 @@
+[04-Sep-2021 21:59:45 Europe/Berlin] PHP Warning:  include(go.php): failed to open stream: No such file or directory in F:\Xampp7.4\htdocs\10.100.1\September 2021\Github\ErrorHandlerPHP\index.php on line 43
+[04-Sep-2021 21:59:45 Europe/Berlin] PHP Warning:  include(): Failed opening 'go.php' for inclusion (include_path='F:\Xampp7.4\php\PEAR') in F:\Xampp7.4\htdocs\10.100.1\September 2021\Github\ErrorHandlerPHP\index.php on line 43
+[04-Sep-2021 21:59:56 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function my_function() in F:\Xampp7.4\htdocs\10.100.1\September 2021\Github\ErrorHandlerPHP\index.php:45
+Stack trace:
+#0 {main}
+  thrown in F:\Xampp7.4\htdocs\10.100.1\September 2021\Github\ErrorHandlerPHP\index.php on line 45
+[04-Sep-2021 22:09:30 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function my_function() in F:\Xampp7.4\htdocs\10.100.1\September 2021\Github\ErrorHandlerPHP\index.php:45
+Stack trace:
+#0 {main}
+  thrown in F:\Xampp7.4\htdocs\10.100.1\September 2021\Github\ErrorHandlerPHP\index.php on line 45
+[04-Sep-2021 22:10:47 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function my_function() in F:\Xampp7.4\htdocs\10.100.1\September 2021\Github\ErrorHandlerPHP\index.php:45
+Stack trace:
+#0 {main}
+  thrown in F:\Xampp7.4\htdocs\10.100.1\September 2021\Github\ErrorHandlerPHP\index.php on line 45
+[04-Sep-2021 22:10:49 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function my_function() in F:\Xampp7.4\htdocs\10.100.1\September 2021\Github\ErrorHandlerPHP\index.php:45
+Stack trace:
+#0 {main}
+  thrown in F:\Xampp7.4\htdocs\10.100.1\September 2021\Github\ErrorHandlerPHP\index.php on line 45
+[04-Sep-2021 22:10:50 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function my_function() in F:\Xampp7.4\htdocs\10.100.1\September 2021\Github\ErrorHandlerPHP\index.php:45
+Stack trace:
+#0 {main}
+  thrown in F:\Xampp7.4\htdocs\10.100.1\September 2021\Github\ErrorHandlerPHP\index.php on line 45

@@ -34,14 +34,14 @@ function my_error($error_number, $error_text, $filename, $line_number)
     page if it has fatal error like unknown function
 */
 
-// ini_set("display_errors",0);
-// ini_set("log_errors",1);
-// ini_set("error_log","logs/error_log.txt");
+ini_set("display_errors",0);
+ini_set("log_errors",1);
+ini_set("error_log","logs/error_log.txt");
 
 
 // Some Tests
 // include 'go.php';
 // echo $_GET['he'];
-// my_function();
+my_function();
 
 ?>
